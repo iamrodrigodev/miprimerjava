@@ -7,9 +7,11 @@ public class Main {
         Scanner sc = new Scanner(System.in); // iniciar el cin >>
 
         Persona p1 = new Persona("Rodrigo", 50);
+        Persona p2 = new Persona("Rodrigo", 50);
+        Persona p3 = new Persona("Rodrigo", 50);
+
 
         p1.obtenerInformacion();
-
 
     }
 }
