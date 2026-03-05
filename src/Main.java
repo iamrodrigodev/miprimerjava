@@ -13,15 +13,23 @@ public class Main {
 
         // p1.obtenerInformacion();
 
-        Rectangulo rec1 = new Rectangulo(10, 5);
+        // Rectangulo rec1 = new Rectangulo(10, 5);
 
         // System.out.println("Área del rectangulo: " + rec1.calcularArea());
         
 
-        rec1.calcularArea();
+        // rec1.calcularArea();
 
-        Circulo cir1 = new Circulo(10.5);
+        // Circulo cir1 = new Circulo(10.5);
 
-        cir1.calcularArea();
+        // cir1.calcularArea();
+
+        Pago pago1 = new Tarjeta();
+
+        Pago pago2 = new Efectivo();
+
+
+        pago1.pagar(100);
+        pago2.pagar(200);
     }
 }
