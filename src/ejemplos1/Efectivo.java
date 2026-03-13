@@ -1,3 +1,4 @@
+package ejemplos1;
 public class Efectivo implements Pago {
 
     @Override

@@ -1,3 +1,4 @@
+package ejemplos1;
 public class Tarjeta implements Pago {
 
     @Override

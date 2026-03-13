@@ -1,3 +1,4 @@
+package ejemplos1;
 public class Rectangulo extends Forma {
     double base;
     double altura;

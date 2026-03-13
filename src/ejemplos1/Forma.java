@@ -1,3 +1,4 @@
+package ejemplos1;
 abstract class Forma {
 
     abstract void calcularArea();

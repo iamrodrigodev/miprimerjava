@@ -1,35 +1,19 @@
 //import java.util.Scanner;
 
+import ejemplos2.Perro;
 
 public class Main {
     public static void main(String[] args) {
 
-        //Scanner sc = new Scanner(System.in); // iniciar el cin >>
+    Perro perro1 = new Perro("juan", 10);
+    
+    System.out.println("Primera ronda");
+    perro1.obtenerInformacion();
 
-        //Persona p1 = new Persona("Rodrigo", 50);
-        //Persona p2 = new Persona("Rodrigo", 50);
-        //Persona p3 = new Persona("Rodrigo", 50);
-
-
-        // p1.obtenerInformacion();
-
-        // Rectangulo rec1 = new Rectangulo(10, 5);
-
-        // System.out.println("Área del rectangulo: " + rec1.calcularArea());
-        
-
-        // rec1.calcularArea();
-
-        // Circulo cir1 = new Circulo(10.5);
-
-        // cir1.calcularArea();
-
-        Pago pago1 = new Tarjeta();
-
-        Pago pago2 = new Efectivo();
+    System.out.println("\nSegunda ronda");
+    perro1.setEdad(90); // 10 -> 11
+    perro1.obtenerInformacion();
 
 
-        pago1.pagar(100);
-        pago2.pagar(200);
     }
 }

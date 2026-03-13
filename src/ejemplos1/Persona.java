@@ -1,3 +1,4 @@
+package ejemplos1;
 public class Persona {
     final String nombre;
     private final int edad;
